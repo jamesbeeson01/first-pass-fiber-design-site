@@ -1,4 +1,4 @@
-# J4 Engineering — website
+# First Pass Engineering — website
 
 Static, single-page site for showing prospective clients. Plain HTML + CSS, no build step.
 
@@ -17,7 +17,7 @@ python3 -m http.server 8000
 | Team photos | `assets/team/` (see README there) |
 | Credential badges / logos | `assets/credentials/` (see README there) |
 | Bios, credentials, contact details, location | `index.html` — every placeholder has `class="todo"` and shows **highlighted yellow** on the page |
-| Company name | search for `J4 Engineering` |
+| Company name | search for `First Pass Engineering` |
 | Colors / fonts | top of `styles.css` |
 
 Before showing the site to anyone, search `index.html` for `todo`, `EDIT`, `REVIEW` and `CONFIRM`. Nothing highlighted yellow should remain.
