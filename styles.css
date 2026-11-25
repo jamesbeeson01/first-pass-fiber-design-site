@@ -103,7 +103,7 @@ p { margin: 0 0 1em; }
     repeating-linear-gradient(90deg, transparent 0 39px, #e9edf1 39px 40px);
   border-bottom: 1px solid var(--line);
 }
-.hero-grid { display: grid; grid-template-columns: 1.25fr 1fr; gap: 56px; align-items: center; }
+.hero-grid { display: grid; grid-template-columns: minmax(0, 52rem); gap: 56px; align-items: center; }
 .eyebrow {
   font-family: var(--mono); font-size: .8rem; letter-spacing: .08em; text-transform: uppercase;
   color: var(--accent); margin-bottom: .9em; font-weight: 500;
